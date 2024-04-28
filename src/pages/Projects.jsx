@@ -15,7 +15,7 @@ import "./Projects.css";
 
 const Projects = () => {
   return (
-    <div className="container">
+    <div className="container" id="project">
       <div>
         <div className="project-container">
           <div className="my">MY PROJECTS</div>

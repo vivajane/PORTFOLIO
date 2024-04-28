@@ -1,9 +1,26 @@
 import React from "react";
 import "./Contact.css";
+import Modal from "./Modal";
 import { useState } from "react";
+// import { useNavigate } from "react-router-dom";
+// import { object, string, number } from 'yup';
+
+// let userSchema = object({
+//   fname: string().required(),
+//   lname: string().required(),
+//   no: number().required(11).positive().integer(),
+//   email: string().email(),
+  
+
+// });
+
+
 
 
 const Contact = () => {
+  // const Navigate = useNavigate()
+  
+
   const[formData,setFormData] = useState({
     fname: "",
     lname: "",
@@ -12,19 +29,40 @@ const Contact = () => {
     
   })
   const[text, setText] = useState()
+  const[show, setShow] = useState(true)
+ 
   
 
   const onChangeHandler = (e) => {
     const {name,value} = e.target
-    setFormData({
-      ...formData,
+    setFormData((prev) => {
+      return {
+        ...prev,
       [name] : value,
+        
+      }
     })
+    
     console.log(name,value)
   }
 
+  const onSubmitHandler = async function(e){
+    
+    try{
+      e.preventDefault()
+    // await userSchema.validate(formData);
+    console.log("submitted")
+    setShow(true)
+
+
+    }catch{
+      console.log("error")
+    }
+
+  }
+
   return (
-    <div className="container">
+    <div className="container" id="contact">
       <div className="contact">
         <h1>CONTACT</h1>
         <div className="form-flex">
@@ -49,30 +87,32 @@ const Contact = () => {
               </ul>
             </div>
           </div>
-          <form>
+          <form onSubmit={onSubmitHandler}>
             <div>
               <label htmlFor="fname">Full Name</label>
-              <input type="text" name="fname" id="fname" onChange={onChangeHandler} value={formData.fname} />
+              <input type="text" name="fname" id="fname" onChange={onChangeHandler} value={formData.fname}  required />
             </div>
             <div>
               <label htmlFor="lname">Last Name</label>
-              <input type="text" name="lname" id="lname" onChange={onChangeHandler}value={formData.lname}  />
+              <input type="text" name="lname" id="lname" onChange={onChangeHandler}value={formData.lname} required />
             </div>
             <div>
               <label htmlFor="no">Phone Number</label>
-              <input type="tel" name="no" id="no" onChange={onChangeHandler}  value={formData.no} />
+              <input type="tel" name="no" id="no" onChange={onChangeHandler}  value={formData.no} required  />
             </div>
             <div>
               <label htmlFor="email">Email</label>
-              <input type="email" name="email" id="email" onChange={onChangeHandler} value={formData.email}  />
+              <input type="email" name="email" id="email" onChange={onChangeHandler} value={formData.email} required />
             </div>
             <div>
-              <textarea name="" id="" cols="100" rows="10" onChange={(e) => setText(e.target.value)} ></textarea>
+              <textarea name="" id="" cols="100" rows="10" onChange={(e) => setText(e.target.value)} value={text} required ></textarea>
             </div>
             <button type="submit">LET'S COLLABORATE</button>
           </form>
+         
         </div>
       </div>
+      {show ? <Modal setShow={setShow}/> : null}
     </div>
   );
 };

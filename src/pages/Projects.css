@@ -67,15 +67,18 @@
 @media screen and (max-width:780px) {
     .project-container{
         max-width: 100%;
-        width: 900px;
-        margin-top: 570px;
+        width: 1000px;
+        margin-top: 660px;
+       
     }
     .project{
-        width: 900px;
+        /* width: 100%; */
         max-width: 100%;
+        
     }
     .my{
         text-align: center;
+        /* margin: 10px auto; */
     }
     .project  {
         display: grid;
@@ -89,7 +92,7 @@
         text-align: center;
     }
     .project > div{
-        width: 600px;
+        width: 650px;
         margin: 10px auto;
        
     }

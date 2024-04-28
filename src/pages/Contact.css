@@ -58,12 +58,16 @@ form input, textarea{
 form input{
     width: 100%;
     padding: 12px;
+    color: white;
 }
 .form-flex{
     display: grid;
     grid-template-columns: 1fr 2fr;
    
     
+}
+textarea{
+    color: white;
 }
 
 
@@ -78,7 +82,19 @@ form input{
 @media screen and (max-width:780px) {
     textarea{
         width: 100%;
-        margin: 20px auto;
+        margin: 10px auto;
+    }
+    .contact{
+        max-width: 100%;
+       
+        
+     
+    }
+    .form-flex{
+       
+        margin: 10px auto;
+        width: 100%;
+
     }
     
 }

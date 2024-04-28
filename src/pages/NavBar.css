@@ -37,9 +37,15 @@ header{
     padding: 30px;
 }
 .list-item a:hover{
-    border-bottom: 2px solid rgb(35, 35, 35);
+    border-bottom: 2px solid rgb(135, 134, 121);
 
     padding: 10px;
+}
+.list-item .active{
+    /* border-bottom: 2px solid rgb(246, 234, 68);
+
+    padding: 10px; */
+
 }
 
 @media screen  and (max-width: 780px){

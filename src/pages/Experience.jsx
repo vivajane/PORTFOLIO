@@ -3,7 +3,7 @@ import "./Experience.css";
 
 const Experience = () => {
   return (
-    <div className="container">
+    <div className="container" id="experience">
       <div className="experience-container">
         <div className="h1">
           <h1>EXPERIENCE</h1>
@@ -11,8 +11,8 @@ const Experience = () => {
         <div className="xperience">
           <div data-aos="flip-up" data-aos-delay="400" data-aos-easing="ease-in-sine" data-aos-duration="600">
             <h2>
-              FrontEnd Web Developer, PassPoint Technologies (Intern) 
-              <span> January 2024- present</span>
+              FrontEnd Web Developer, PassPoint Technologies 
+              <span> (January 2024- present)</span>
             </h2>
             <span>Lagos, Nigeria</span>
           </div>

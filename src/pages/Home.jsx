@@ -9,7 +9,7 @@ import { FaLinkedin } from "react-icons/fa6";
 
 const Home = () => {
   return (
-<div className="containerr">
+<div className="container" id="/">
 <div className="homecontainer">
       <div className="home">
         <div className="img-flex">

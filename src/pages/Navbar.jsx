@@ -9,14 +9,18 @@ import { FaTimes } from "react-icons/fa";
 
 const Navbar = () => {
   const [show, setShow] = useState(false);
+  
 
   const handleClick = () => {
     setShow(!show);
   };
+  const close = () => {
+    setShow(false)
+  }
 
   return (
-    <div className="container">
-      <header className="header">
+    <div className="container" id="navbar">
+      <header className="header" >
         <nav className="navbar">
           <div className="img">
             <a href="/">
@@ -41,20 +45,22 @@ const Navbar = () => {
                 data-aos-offset="200"
                 data-aos-easing="ease-in-sine"
                 data-aos-duration="600"
+                onClick={close}
               >
                 Home
               </Link>
             </li>
             <li className="list-item">
               <Link
-                to="projects"
+                to="project"
                 spy={true}
                 smooth={true}
-                offset={20}
+                offset={-90}
                 data-aos="fade-zoom-in"
                 data-aos-offset="300"
                 data-aos-easing="ease-in-sine"
                 data-aos-duration="600"
+                onClick={close}
               >
                 Projects
               </Link>
@@ -64,11 +70,12 @@ const Navbar = () => {
                 to="experience"
                 spy={true}
                 smooth={true}
-                offset={50}
+                offset={-95}
                 data-aos="fade-zoom-in"
                 data-aos-offset="400"
                 data-aos-easing="ease-in-sine"
                 data-aos-duration="600"
+                onClick={close}
               >
                 Experience
               </Link>
@@ -78,11 +85,12 @@ const Navbar = () => {
                 to="contact"
                 spy={true}
                 smooth={true}
-                offset={50}
+                offset={-70}
                 data-aos="fade-zoom-out"
                 data-aos-offset="500"
                 data-aos-easing="ease-in-sine"
                 data-aos-duration="600"
+                onClick={close}
               >
                 Contact
               </Link>
