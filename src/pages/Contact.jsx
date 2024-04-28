@@ -29,7 +29,7 @@ const Contact = () => {
     
   })
   const[text, setText] = useState()
-  const[show, setShow] = useState(true)
+  const[show, setShow] = useState(false)
  
   
 
