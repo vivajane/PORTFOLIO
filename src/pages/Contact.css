@@ -1,10 +1,13 @@
-.contact{
-    height: 700px;
+.contact-container{
+    width: 100%;
+    margin: 10px auto;
+    /* height: 1700px; */
+}
+.contact-container .contact{
     position: relative;
-    margin: auto;
-    max-width: 100%;
-    padding: 30px 30px;
-    width: 1350px;                                                          
+    max-width: 1300px;
+    width: 100%;  
+    margin: 0 auto;                                                        
     overflow: hidden;
     
 }
@@ -13,14 +16,19 @@ button{
     cursor: pointer;
 }
 .contact form{
-    box-shadow: 15px 5px 15px 15px rgb(37, 28, 28);
+   
     height: 600px;
-    padding: 20px;
+    padding: 40px 20px;
+    width: 100%;
+    margin-right: 2px;
 }
 .contact h1{
     margin-bottom: 30px;
     text-align: center;
     padding: f;
+}
+.links{
+    width: 100%;
 }
 
 .link{
@@ -60,14 +68,19 @@ form input{
     padding: 12px;
     color: white;
 }
+
 .form-flex{
     display: grid;
     grid-template-columns: 1fr 2fr;
+    box-shadow: 15px 5px 15px 15px rgb(37, 28, 28);
+    width: 100%;
+    margin: 10px auto;
    
     
 }
 textarea{
     color: white;
+    width: 100%;
 }
 
 
@@ -75,7 +88,7 @@ textarea{
     margin-right: 20px;
 }
 .form-flex .links{
-    box-shadow: 15px 5px 15px 15px rgb(37, 28, 28);
+    box-shadow: 15px 5px rgb(37, 28, 28);
     height: 600px;
 
 }
@@ -83,18 +96,58 @@ textarea{
     textarea{
         width: 100%;
         margin: 10px auto;
+    
     }
     .contact{
         max-width: 100%;
+        width: 100%;
+        height: 1700px;
        
         
      
     }
     .form-flex{
-       
-        margin: 10px auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        /* margin: 5px auto; */
         width: 100%;
+        /* height: 1400px; */
 
     }
+    .contact form{
+        width: 100%;
+        font-size: 25px;
+        
+    }
+    form input{
+        padding: 25px;
+    }
+    .form-flex .links{
+        height: 800px;
+        width: 100%;
+        font-size: 25px;
+        
+    }
+
+    .links{
+        
+        /* margin-bottom: 30px; */
+        /* height: 900px; */
+        
+    }
+    button{
+        margin: 40px auto;
+        font-size: 29px;
+    }
+    label{
+        font-size: 29px;
+    }
+    .contact h1{
+        margin: 50px auto;
+        font-size: 35px;
+    }
     
+}
+@media screen and (min-width:500px) {
+
 }

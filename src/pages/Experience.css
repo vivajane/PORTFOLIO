@@ -1,8 +1,8 @@
 .experience-container{
     /* background-color: aquamarine; */
-    height: 500px;
+    height: 800px;
     position: relative;
-    width: 1200px;
+    width: 95%;
     margin: 90px auto;
     padding: 30px 30px;
     box-shadow: 15px 5px 15px 15px rgb(37, 28, 28);
@@ -10,6 +10,13 @@
     
 
     
+}
+.con-wrapper > div{
+    font-size: 20px;
+}
+.con-wrapper{
+    width: 100%;
+    margin: 10px auto;
 }
 .xperience div:first-child{
     /* background-color: aquamarine; */
@@ -20,24 +27,37 @@
     letter-spacing: 1px;
     border-color: black;
     font-style: normal;
+    font-size: 20px;
 }
 .xperience ul{
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-style: normal;
+    font-size: 19px;
+    line-height: 30px;
+    /* height: 800px; */
     
 }
 .xperience ul li{
     list-style-type: disc;
+    width: 100%;
 }
 
 @media screen and (max-width:780px){
     .experience-container{
-        max-width: 100%;
-        width: 650px;
+        width: 100%;
         height: auto;
-       margin: 10px auto;
+        margin: 10px auto;
     }
+    .con-wrapper{
+        /* margin-top: 190px; */
+        margin: 20px auto;
+        padding: 10px 0;
+    }
+    
+.xperience > div > ul > li{
+    font-size: 25px;
+}
     
 
     

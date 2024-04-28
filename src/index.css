@@ -13,9 +13,7 @@ body{
 
 .container{
   margin:  10px auto;
-  max-width: 1300px;
-  width: 100%;
-  /* background-color: rgba(30, 163, 119, 0.8); */
+  /* background-color: rgba(30, 163, 119); */
 }
 ul{
   list-style-type: none;
