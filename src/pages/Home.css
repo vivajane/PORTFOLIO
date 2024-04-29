@@ -115,6 +115,9 @@
         
 
     }
+    .links:hover{
+        width: 50%;
+    }
     .flex-content{
         width: 90%;
     }
