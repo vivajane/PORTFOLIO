@@ -23,7 +23,7 @@
     margin: 20px auto;
     padding: 20px 0;
     font-family: "Anton", sans-serif;
-    font-weight: 200;
+    font-weight: 50;
     letter-spacing: 1px;
     border-color: black;
     font-style: normal;
@@ -31,7 +31,7 @@
 }
 .xperience ul{
     font-family: "Roboto", sans-serif;
-    font-weight: 700;
+    font-weight: 300;
     font-style: normal;
     font-size: 19px;
     line-height: 30px;
@@ -55,10 +55,7 @@
         padding: 10px 0;
     }
     
-.xperience > div > ul > li{
-    font-size: 25px;
+ .xperience > div > ul > li{
+    font-size: 17px;
 }
-    
-
-    
 }
