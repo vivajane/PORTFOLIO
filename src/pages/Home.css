@@ -120,15 +120,19 @@
     }
     .flex-content .para{
         padding:  0 5px; 
-        /* text-align: center; */
+        text-align: start;
         
     }
     .div-img{
         max-width: 800px;
         width: 100%;
         /* height: auto; */
-        margin: 70px auto;
+        margin: 20px auto;
         
+
+    }
+    .links{
+        margin-top: 40px;
 
     }
     .img-flex:first-child{
@@ -137,8 +141,8 @@
     .socials{
         display: block;
     }
-    .home h2{
-        margin-top: 0;
+    .flex-content h2{
+        margin-bottom: 20px;
     }
     
 }

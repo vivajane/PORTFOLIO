@@ -1,5 +1,6 @@
-header{
-    height: 90px;
+.header .navbar{
+    border-bottom: 2px solid white;
+    height: 80px;
     width: 100%;
     position: fixed;
     top: 0;

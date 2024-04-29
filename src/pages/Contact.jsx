@@ -136,7 +136,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-      {show ? <Modal setShow={setShow} /> : null}
+      {/* {show ? <Modal setShow={setShow} /> : null} */}
     </div>
   );
 };

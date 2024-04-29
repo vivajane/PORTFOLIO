@@ -19,7 +19,7 @@ const Projects = () => {
       <div className="project-content">
         <div className="project-wrapper">
           <div className="project-container">
-            <div className="my">MY PROJECTS</div>
+            <h4 className="my">MY PROJECTS</h4>
           </div>
           <div className="project">
             <div
