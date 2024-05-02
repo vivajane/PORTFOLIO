@@ -96,7 +96,7 @@ const Projects = () => {
                 <h2>TODO-LIST APPLICATION</h2>
                 <div>
                   <a
-                    href="https://safe-haven-phi.vercel.app/"
+                    href="https://todo-list-three-livid-45.vercel.app/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -112,35 +112,7 @@ const Projects = () => {
                 mark finished task and delete aswell.{" "}
               </p>
             </div>
-            <div
-              data-aos="flip-down"
-              data-aos-delay="400"
-              data-aos-easing="ease-in-sine"
-              data-aos-duration="600"
-            >
-              <div>
-                <img src={safe} alt="todo" />
-              </div>
-              <div className="agroweb">
-                <h2>WEBSITE FOR GIRL THE GIRL CHILD </h2>
-                <div>
-                  <a
-                    href="https://todo-list-three-livid-45.vercel.app/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <div className="icon">
-                      {" "}
-                      <SiVercel size={30} />
-                    </div>
-                  </a>
-                </div>
-              </div>
-              <p>
-                This is a website for organisation that strives for a just world
-                by advancing the girl child rights and equality for females.
-              </p>
-            </div>
+            
             <div
               data-aos="flip-down"
               data-aos-delay="500"
