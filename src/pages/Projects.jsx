@@ -69,7 +69,7 @@ const Projects = () => {
                 <h2>MINI-PORTFOLIO</h2>
                 <div>
                   <a
-                    href="https://travel-list-two-nu.vercel.app/"
+                    href="https://mini-portfolio-blush-rho.vercel.app/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
