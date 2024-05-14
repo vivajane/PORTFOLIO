@@ -6,7 +6,7 @@ import cart from "../images/cart.png";
 import task from "../images/taskmanager.png";
 import todo from "../images/todolist.png";
 // import safe from "../images/safe.png";
-import safe from "../images/travel-list.png";
+import safe from "../images/mini.png";
 
 
 // import port from "../images/portimg.png"
@@ -66,7 +66,7 @@ const Projects = () => {
                 <img src={safe} alt="" />
               </div>
               <div className="agroweb">
-                <h2>TRAVEL-LIST</h2>
+                <h2>MINI-PORTFOLIO</h2>
                 <div>
                   <a
                     href="https://travel-list-two-nu.vercel.app/"
@@ -81,7 +81,7 @@ const Projects = () => {
               </div>
 
               <p>
-                This is a website where the essentials needed for a vacation or travel are being input, there is an option to sort items, individual items can be deleted and all items deleted at once too.
+                This is a mini portfolio, here, some questions about my career were answered.
               </p>
             </div>
             <div
