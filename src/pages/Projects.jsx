@@ -5,7 +5,10 @@ import agro from "../images/agr.png";
 import cart from "../images/cart.png";
 import task from "../images/taskmanager.png";
 import todo from "../images/todolist.png";
-import safe from "../images/safe.png";
+// import safe from "../images/safe.png";
+import safe from "../images/travel-list.png";
+
+
 // import port from "../images/portimg.png"
 import "./Projects.css";
 
@@ -50,6 +53,35 @@ const Projects = () => {
                 This is a website that serves as a digital marketplace ,
                 empowering farmers to showcase their products directly to
                 consumers with any middleman.
+              </p>
+            </div>
+            
+            <div
+              data-aos="flip-down"
+              data-aos-delay="400"
+              data-aos-easing="ease-in-sine"
+              data-aos-duration="600"
+            >
+              <div>
+                <img src={safe} alt="" />
+              </div>
+              <div className="agroweb">
+                <h2>TRAVEL-LIST</h2>
+                <div>
+                  <a
+                    href="https://travel-list-two-nu.vercel.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <div className="icon">
+                      <SiVercel size={30} />
+                    </div>
+                  </a>
+                </div>
+              </div>
+
+              <p>
+                This is a website where the essentials needed for a vacation or travel are being input, there is an option to sort items, individual items can be deleted and all items deleted at once too.
               </p>
             </div>
             <div

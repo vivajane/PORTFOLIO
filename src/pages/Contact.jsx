@@ -2,16 +2,18 @@ import React from "react";
 import "./Contact.css";
 import Modal from "./Modal";
 import { useState } from "react";
-// import { useNavigate } from "react-router-dom";
-// import { object, string, number } from 'yup';
+import { object, string, number} from 'yup';
 
-// let userSchema = object({
-//   fname: string().required(),
-//   lname: string().required(),
-//   no: number().required(11).positive().integer(),
-//   email: string().email(),
 
-// });
+const userSchema = object({
+  fname: string().required("input can't be empty"),
+  lname: string().required("input can't be empty"),
+  no: number(11).required().positive().integer(),
+  email: string().email("oga"),
+
+});
+
+
 
 const Contact = () => {
   // const Navigate = useNavigate()
@@ -37,15 +39,35 @@ const Contact = () => {
     console.log(name, value);
   };
 
+  const handleChange = (e) => {
+    setText(e.target.value);
+
+    console.log(text)
+
+  }
+
   const onSubmitHandler = async function (e) {
     try {
       e.preventDefault();
+      const schema = await userSchema.validate(formData)
+      console.log(schema)
       // await userSchema.validate(formData);
       console.log("submitted");
       setShow(true);
     } catch {
       console.log("error");
     }
+
+    setFormData({
+      fname: "",
+      lname: "",
+      no: "",
+      email: "",
+     
+    })
+    setText({
+      text: "",
+    })
   };
 
   return (
@@ -84,7 +106,7 @@ const Contact = () => {
                   id="fname"
                   onChange={onChangeHandler}
                   value={formData.fname}
-                  required
+                  
                 />
               </div>
               <div>
@@ -95,7 +117,7 @@ const Contact = () => {
                   id="lname"
                   onChange={onChangeHandler}
                   value={formData.lname}
-                  required
+                  
                 />
               </div>
               <div>
@@ -106,7 +128,7 @@ const Contact = () => {
                   id="no"
                   onChange={onChangeHandler}
                   value={formData.no}
-                  required
+                  
                 />
               </div>
               <div>
@@ -117,18 +139,18 @@ const Contact = () => {
                   id="email"
                   onChange={onChangeHandler}
                   value={formData.email}
-                  required
+                  
                 />
               </div>
               <div>
                 <textarea
-                  name=""
+                  name="text"
                   id=""
                   cols="100"
                   rows="10"
-                  onChange={(e) => setText(e.target.value)}
+                  onChange={handleChange}
                   value={text}
-                  required
+                  
                 ></textarea>
               </div>
               <button type="submit">LET'S COLLABORATE</button>
