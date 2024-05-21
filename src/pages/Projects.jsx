@@ -1,13 +1,12 @@
 import React from "react";
 import { SiVercel } from "react-icons/si";
-import logo from "../images/quiz.png";
+import logo from "../images/react-quiz-app.png";
 import agro from "../images/agr.png";
 import cart from "../images/cart.png";
 import task from "../images/taskmanager.png";
 import todo from "../images/todolist.png";
 // import safe from "../images/safe.png";
 import safe from "../images/mini.png";
-
 
 // import port from "../images/portimg.png"
 import "./Projects.css";
@@ -55,7 +54,7 @@ const Projects = () => {
                 consumers with any middleman.
               </p>
             </div>
-            
+
             <div
               data-aos="flip-down"
               data-aos-delay="400"
@@ -81,7 +80,8 @@ const Projects = () => {
               </div>
 
               <p>
-                This is a mini portfolio, here, some questions about my career were answered.
+                This is a mini portfolio, here, some questions about my career
+                were answered.
               </p>
             </div>
             <div
@@ -97,7 +97,7 @@ const Projects = () => {
                 <h2>QUIZ APPLICATION</h2>
                 <div>
                   <a
-                    href="https://quiz-app-project-jjsq.vercel.app/"
+                    href="https://react-quiz-app-green.vercel.app/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -144,7 +144,7 @@ const Projects = () => {
                 mark finished task and delete aswell.{" "}
               </p>
             </div>
-            
+
             <div
               data-aos="flip-down"
               data-aos-delay="500"
