@@ -5,6 +5,8 @@ import agro from "../images/agr.png";
 import cart from "../images/cart.png";
 import task from "../images/taskmanager.png";
 import todo from "../images/todolist.png";
+import vivys from "../images/vivysfashion.png";
+import elva from "../images/elva.png";
 // import safe from "../images/safe.png";
 import safe from "../images/mini.png";
 
@@ -52,6 +54,62 @@ const Projects = () => {
                 This is a website that serves as a digital marketplace ,
                 empowering farmers to showcase their products directly to
                 consumers with any middleman.
+              </p>
+            </div>
+            <div
+              data-aos="flip-down"
+              data-aos-delay="600"
+              data-aos-easing="ease-in-sine"
+              data-aos-duration="600"
+            >
+              <div>
+                <img src={vivys} alt="todo" />
+              </div>
+              <div className="agroweb">
+                <h2>VIVY'S FASHION</h2>
+                <div>
+                  <a
+                    href="https://vivys-fashion-house.vercel.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <div className="icon">
+                      {" "}
+                      <SiVercel size={30} />
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <p>
+                This is a fashion website where users get to see list of displayed proudct, add to cart and view cart.
+              </p>
+            </div>
+            <div
+              data-aos="flip-down"
+              data-aos-delay="600"
+              data-aos-easing="ease-in-sine"
+              data-aos-duration="600"
+            >
+              <div>
+                <img src={elva} alt="todo" />
+              </div>
+              <div className="agroweb">
+                <h2>PROJECT-ELVA</h2>
+                <div>
+                  <a
+                    href="https://elva-project-9ibi.vercel.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <div className="icon">
+                      {" "}
+                      <SiVercel size={30} />
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <p>
+                Elva Project is a mini e-commerce website
               </p>
             </div>
 
@@ -114,66 +172,7 @@ const Projects = () => {
                 on submission.
               </p>
             </div>
-
-            <div
-              data-aos="flip-down"
-              data-aos-delay="600"
-              data-aos-easing="ease-in-sine"
-              data-aos-duration="600"
-            >
-              <div>
-                <img src={todo} alt="todo" />
-              </div>
-              <div className="agroweb">
-                <h2>TODO-LIST APPLICATION</h2>
-                <div>
-                  <a
-                    href="https://todo-list-three-livid-45.vercel.app/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <div className="icon">
-                      {" "}
-                      <SiVercel size={30} />
-                    </div>
-                  </a>
-                </div>
-              </div>
-              <p>
-                This is a todo list application, that allow users input task,
-                mark finished task and delete aswell.{" "}
-              </p>
-            </div>
-
-            <div
-              data-aos="flip-down"
-              data-aos-delay="500"
-              data-aos-easing="ease-in-sine"
-              data-aos-duration="600"
-            >
-              <div>
-                <img src={cart} alt="" />
-              </div>
-              <div className="agroweb">
-                <h2>E-COMMERCE WEBSITE</h2>
-                <div>
-                  <a
-                    href="https://shopping-cart-nine-jet.vercel.app/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <div className="icon">
-                      <SiVercel size={30} />
-                    </div>
-                  </a>
-                </div>
-              </div>
-              <p>
-                This is an E-commerce website, where a user gets to see the list
-                of produces. This is my first React appliction. It was
-                instrumental to my knowledge of React Components
-              </p>
-            </div>
+            
             <div
               data-aos="flip-down"
               data-aos-delay="600"
