@@ -7,6 +7,7 @@ import task from "../images/taskmanager.png";
 import todo from "../images/todolist.png";
 import vivys from "../images/vivysfashion.png";
 import elva from "../images/elva.png";
+import famtrust from "../images/famtrustproject.png";
 // import safe from "../images/safe.png";
 import safe from "../images/mini.png";
 
@@ -54,6 +55,34 @@ const Projects = () => {
                 This is a website that serves as a digital marketplace ,
                 empowering farmers to showcase their products directly to
                 consumers with any middleman.
+              </p>
+            </div>
+            <div
+              data-aos="flip-down"
+              data-aos-delay="400"
+              data-aos-easing="ease-in-sine"
+              data-aos-duration="600"
+            >
+              <div>
+                <img src={famtrust} alt="" />
+              </div>
+              <div className="agroweb">
+                <h2>FARMTRUST</h2>
+                <div>
+                  <a
+                    href="famtrustproject.vercel.app"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <div className="icon">
+                      <SiVercel size={30} />
+                    </div>
+                  </a>
+                </div>
+              </div>
+
+              <p>
+              Family account management app designed to simplify and streamline the management of financial resources for families.
               </p>
             </div>
             <div
@@ -173,37 +202,7 @@ const Projects = () => {
               </p>
             </div>
             
-            <div
-              data-aos="flip-down"
-              data-aos-delay="600"
-              data-aos-easing="ease-in-sine"
-              data-aos-duration="600"
-            >
-              <div>
-                <img src={task} alt="" />
-              </div>
-              <div className="agroweb">
-                <h2>A TASK MANAGER APPLICATION</h2>
-                <div>
-                  <a
-                    href="https://task-manager-brown-iota.vercel.app/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <div className="icon">
-                      {" "}
-                      <SiVercel size={30} />
-                    </div>
-                  </a>
-                </div>
-              </div>
-              <p>
-                This is a task manager application, that allow users input their
-                task through a modal that displays a Form, which is being
-                updated in the application. A user can delete and mark completed
-                task.
-              </p>
-            </div>
+            
           </div>
         </div>
       </div>
