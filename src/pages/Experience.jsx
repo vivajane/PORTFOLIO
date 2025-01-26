@@ -17,8 +17,8 @@ const Experience = () => {
               data-aos-duration="600"
             >
               <h2>
-                FrontEnd Web Developer, PassPoint Technologies
-                <span> (January 2024- present)</span>
+              Frontend Web Developer, InternPulse- Remote 
+                <span>(JUNE - AUGUST  2024) </span>
               </h2>
               <span>Lagos, Nigeria</span>
             </div>
@@ -26,33 +26,19 @@ const Experience = () => {
             <div>
               <ul>
                 <li>
-                  Developed responsive user interfaces for web applications
-                  using HTML, CSS, and JavaScript.
+                Contributed to the development of a family account management app designed to simplify and streamline the management of financial resources for families.
+
                 </li>
                 <li>
-                  Implemented responsive designs and optimized UI/UX for mobile
-                  devices resulting in a 30% reduction in load time.
-                </li>
-                <li>
-                  Collaborated with the marketing team to implement conversion
-                  tracking and A/B testing for landing pages.
-                </li>
-                <li>
-                  Contributed to the development of a responsive web app,
-                  enhancing user engagement and accessibility.
+                Developed responsive user interfaces for web applications using HTML, Tailwind  CSS, and React
                 </li>
                 <li>
                   Worked closely with designers to develop visually appealing
-                  and user-friendly websites.{" "}
+                  and user-friendly websites.
                 </li>
                 <li>
                   Collaborated with the back-end team to integrate front-end
                   components with server-side technologies.
-                </li>
-
-                <li>
-                  Contributed to the development of a content management system,
-                  empowering clients to manage website content easily.
                 </li>
               </ul>
             </div>

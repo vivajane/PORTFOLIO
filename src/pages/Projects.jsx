@@ -9,15 +9,8 @@ import vivys from "../images/vivysfashion.png";
 import elva from "../images/elva.png";
 import famtrust from "../images/famtrustproject.png";
 import laundry from "../images/laundyEase.png"
-// import safe from "../images/safe.png";
 import safe from "../images/mini.png";
-
-// import port from "../images/portimg.png"
 import "./Projects.css";
-
-// import { FaLinkedin } from "react-icons/fa";
-// {/* <SiVercel />
-// <FaLinkedin /> */}
 
 const Projects = () => {
   return (
