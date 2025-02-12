@@ -43,6 +43,38 @@ const Experience = () => {
               </ul>
             </div>
           </div>
+          <div className="xperience">
+            <div
+              data-aos="flip-up"
+              data-aos-delay="400"
+              data-aos-easing="ease-in-sine"
+              data-aos-duration="600"
+            >
+              <h2>
+              Frontend Web Developer, Elva Technologies- Remote 
+                <span>(JULY 2024 - JANUARY  2025) </span>
+              </h2>
+              <span>Lagos, Nigeria</span>
+            </div>
+
+            <div>
+              <ul>
+                <li>
+                Developed and optimized reusable UI components using React and Tailwind CSS.
+
+                </li>
+                <li>
+                	Collaborated with the team on GitHub, contributing to feature development, bug fixes, and improvements.
+                </li>
+                <li>
+                	Participated in code reviews, providing feedback and suggestions to improve code quality and maintainability.
+                </li>
+                <li>
+                Worked with modern frontend tools and technologies, ensuring scalable and efficient implementations.
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </div>
