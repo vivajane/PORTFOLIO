@@ -49,9 +49,7 @@ const Projects = () => {
               <p>
                 The laundry website allows users to schedule and manage their
                 laundry services online. It provides features like service
-                selection, pickup and delivery scheduling, pricing details, and
-                real-time order tracking to streamline and simplify the laundry
-                process for customers
+                selection, pricing details. 
               </p>
             </div>
             <div
@@ -197,65 +195,8 @@ const Projects = () => {
               <p>Elva Project is a mini e-commerce website</p>
             </div>
 
-            <div
-              data-aos="flip-down"
-              data-aos-delay="400"
-              data-aos-easing="ease-in-sine"
-              data-aos-duration="600"
-            >
-              <div>
-                <img src={safe} alt="" />
-              </div>
-              <div className="agroweb">
-                <h2>MINI-PORTFOLIO</h2>
-                <div>
-                  <a
-                    href="https://mini-portfolio-blush-rho.vercel.app/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <div className="icon">
-                      <SiVercel size={30} />
-                    </div>
-                  </a>
-                </div>
-              </div>
 
-              <p>
-                This is a mini portfolio, here, some questions about my career
-                were answered.
-              </p>
-            </div>
-            <div
-              data-aos="flip-down"
-              data-aos-delay="500"
-              data-aos-easing="ease-in-sine"
-              data-aos-duration="600"
-            >
-              <div className="agroweb">
-                <img src={logo} alt="" />
-              </div>
-              <div>
-                <h2>QUIZ APPLICATION</h2>
-                <div>
-                  <a
-                    href="https://react-quiz-app-green.vercel.app/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <div className="icon">
-                      <SiVercel size={30} />
-                    </div>
-                  </a>
-                </div>
-              </div>
 
-              <p>
-                This is a quiz application, that allow users choose correct
-                answers from an array of questions after which they are graded
-                on submission.
-              </p>
-            </div>
           </div>
         </div>
       </div>
