@@ -8,8 +8,9 @@ import todo from "../images/todolist.png";
 import vivys from "../images/vivysfashion.png";
 import elva from "../images/elva.png";
 import famtrust from "../images/famtrustproject.png";
-import laundry from "../images/laundyEase.png"
+import laundry from "../images/laundyEase.png";
 import safe from "../images/mini.png";
+import timbu from "../images/timbu.png";
 import "./Projects.css";
 
 const Projects = () => {
@@ -21,7 +22,7 @@ const Projects = () => {
             <h4 className="my">MY PROJECTS</h4>
           </div>
           <div className="project">
-          <div
+            <div
               data-aos="flip-down"
               data-aos-delay="400"
               data-aos-easing="ease-in-sine"
@@ -46,7 +47,11 @@ const Projects = () => {
               </div>
 
               <p>
-              The laundry website allows users to schedule and manage their laundry services online. It provides features like service selection, pickup and delivery scheduling, pricing details, and real-time order tracking to streamline and simplify the laundry process for customers
+                The laundry website allows users to schedule and manage their
+                laundry services online. It provides features like service
+                selection, pickup and delivery scheduling, pricing details, and
+                real-time order tracking to streamline and simplify the laundry
+                process for customers
               </p>
             </div>
             <div
@@ -86,6 +91,34 @@ const Projects = () => {
               data-aos-duration="600"
             >
               <div>
+                <img src={timbu} alt="timbu" />
+              </div>
+              <div className="agroweb">
+                <h2>TIMBU WEBSITE</h2>
+                <div>
+                  <a
+                    href="https://timbu-e-commerce-app-82zw.vercel.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <div className="icon">
+                      <SiVercel size={30} />
+                    </div>
+                  </a>
+                </div>
+              </div>
+
+              <p>
+                Timbu is an e-commerce site where sales and purchases take place
+              </p>
+            </div>
+            <div
+              data-aos="flip-down"
+              data-aos-delay="400"
+              data-aos-easing="ease-in-sine"
+              data-aos-duration="600"
+            >
+              <div>
                 <img src={famtrust} alt="" />
               </div>
               <div className="agroweb">
@@ -101,11 +134,11 @@ const Projects = () => {
                     </div>
                   </a>
                 </div>
-                
               </div>
 
               <p>
-              Family account management app designed to simplify and streamline the management of financial resources for families.
+                Family account management app designed to simplify and
+                streamline the management of financial resources for families.
               </p>
             </div>
             <div
@@ -133,7 +166,8 @@ const Projects = () => {
                 </div>
               </div>
               <p>
-                This is a fashion website where users get to see list of displayed proudct, add to cart and view cart.
+                This is a fashion website where users get to see list of
+                displayed proudct, add to cart and view cart.
               </p>
             </div>
             <div
@@ -160,9 +194,7 @@ const Projects = () => {
                   </a>
                 </div>
               </div>
-              <p>
-                Elva Project is a mini e-commerce website
-              </p>
+              <p>Elva Project is a mini e-commerce website</p>
             </div>
 
             <div
@@ -224,8 +256,6 @@ const Projects = () => {
                 on submission.
               </p>
             </div>
-            
-            
           </div>
         </div>
       </div>
